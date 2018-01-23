@@ -32,7 +32,7 @@ var $ = function(sel){
     }
 
     var toggleClass = function(className){
-        for (var i = 0; i > elem.length; i++){
+        for (var i = 0; i < elem.length; i++){
             if (elem[i].className.includes(className)) {
                 elem[i].classList.removeClass(className); 
             } else {
