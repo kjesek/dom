@@ -34,9 +34,9 @@ var $ = function(sel){
     var toggleClass = function(className){
         for (var i = 0; i < elem.length; i++){
             if (elem[i].className.includes(className)) {
-                elem[i].classList.removeClass(className); 
+                elem[i].classList.remove(className); 
             } else {
-                elem[i].classList.addClass(className);
+                elem[i].classList.add(className);
             }
         }        
     }
